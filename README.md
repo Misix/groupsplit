@@ -2,6 +2,17 @@
 
 This program splits a delimeted file into multiple files, based on the value of the specified column. Rows that share the same value are concatenated into the same file.
 
+# Building
+
+Build this like any other Rust program.
+
+```bash
+cd groupsplit
+cargo build --release
+```
+
+The resulting binaries are available in `target/release`.
+
 # Maintainer
 
 Davis Remmel <dremmel@misix.com>
