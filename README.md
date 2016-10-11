@@ -13,6 +13,14 @@ cargo build --release
 
 The resulting binaries are available in `target/release`.
 
+# Usage
+
+Please pipe all input over stdin.
+
+```bash
+cat file_to_split.tsv | groupsplit
+```
+
 # Maintainer
 
 Davis Remmel <dremmel@misix.com>
